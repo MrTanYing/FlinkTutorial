@@ -1,4 +1,4 @@
-package com.tlh.wc
+package com.tlh.api.demo.wc
 
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment}
 

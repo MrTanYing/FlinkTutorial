@@ -1,4 +1,4 @@
-package com.tlh.wc
+package com.tlh.api.demo.wc
 
 import org.apache.flink.api.java.utils.ParameterTool
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
