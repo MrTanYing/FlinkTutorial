@@ -22,7 +22,7 @@ object ScalarFunction {
   def main(args: Array[String]): Unit = {
     //0.环境初始化
     val env = StreamExecutionEnvironment.getExecutionEnvironment
-    //生产并行度需要根据环境决定(资源,计算精确度)
+    //生产并行度,需要根据环境决定(资源,计算精确度)
     env.setParallelism(1)
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
 
