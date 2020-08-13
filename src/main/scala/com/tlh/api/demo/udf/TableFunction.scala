@@ -69,7 +69,6 @@ object TableFunction {
     resultSqlTable.toAppendStream[Row].print("sql")
 
     env.execute("table funtion test")
-
   }
 }
 
